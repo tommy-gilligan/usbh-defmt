@@ -1,0 +1,9 @@
+[package]
+name = "usbh-defmt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+usb-device = "0.2.9"
+usbh = { version = "0.1.0", path = "/Users/tom/rp-hal-usb-host-example/usbh" }
+defmt = "0.3"
