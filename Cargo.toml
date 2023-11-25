@@ -7,3 +7,4 @@ edition = "2021"
 usb-device = "0.2.9"
 usbh = { git = "https://github.com/nilclass/usbh" }
 defmt = "0.3"
+trace = { git = "https://github.com/tommy-gilligan/trace.git" }

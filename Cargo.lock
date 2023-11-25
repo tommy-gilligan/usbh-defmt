@@ -165,6 +165,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "trace"
+version = "0.1.7"
+source = "git+https://github.com/tommy-gilligan/trace.git#3c2e4dca4322eecc93c83132f2d4419e9160f2b1"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 1.0.109",
+]
+
+[[package]]
 name = "unicode-ident"
 version = "1.0.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -182,6 +192,7 @@ dependencies = [
 [[package]]
 name = "usbh"
 version = "0.1.0"
+source = "git+https://github.com/nilclass/usbh#68792edb121db65e724653cf61159ad9067f2e24"
 dependencies = [
  "defmt",
  "embed-doc-image",
@@ -194,6 +205,7 @@ name = "usbh-defmt"
 version = "0.1.0"
 dependencies = [
  "defmt",
+ "trace",
  "usb-device",
  "usbh",
 ]
